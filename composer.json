@@ -15,15 +15,15 @@
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^3.1",
-        "captainhook/captainhook": "*",
-        "captainhook/plugin-composer": "*",
+        "captainhook/captainhook": "^5.23",
+        "captainhook/plugin-composer": "^5.3",
         "fakerphp/faker": "^1.23",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.26",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.0",
         "phpunit/phpunit": "^11.0.1",
-        "webgriffe/captainhook": "*",
+        "webgriffe/captainhook": "^2.1",
         "worksome/coding-style": "^2.12"
     },
     "autoload": {
