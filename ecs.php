@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Symplify\EasyCodingStandard\Config\ECSConfig;
+use Worksome\CodingStyle\Sniffs\Laravel\DisallowHasFactorySniff;
 use Worksome\CodingStyle\WorksomeEcsConfig;
 
 
