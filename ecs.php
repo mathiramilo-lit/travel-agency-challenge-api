@@ -14,9 +14,5 @@ return static function (ECSConfig $ecsConfig): void {
         __DIR__ . '/config',
     ]);
 
-    $ecsConfig->skip([
-        DisallowHasFactorySniff::class
-    ]);
-
     WorksomeEcsConfig::setup($ecsConfig);
 };
