@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Symplify\EasyCodingStandard\Config\ECSConfig;
+use Worksome\CodingStyle\Sniffs\Laravel\DisallowHasFactorySniff;
 use Worksome\CodingStyle\WorksomeEcsConfig;
 
 
@@ -11,6 +12,10 @@ return static function (ECSConfig $ecsConfig): void {
         __DIR__ . '/app',
         __DIR__ . '/tests',
         __DIR__ . '/config',
+    ]);
+
+    $ecsConfig->skip([
+        DisallowHasFactorySniff::class
     ]);
 
     WorksomeEcsConfig::setup($ecsConfig);

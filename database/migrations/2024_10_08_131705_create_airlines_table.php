@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->string('name')->unique();
             $table->string('description');
-            $table->integer('active_flights')->default(0);
             $table->timestamps();
         });
     }
