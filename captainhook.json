@@ -26,7 +26,7 @@
         ]
     },
     "pre-push": {
-        "enabled": true,
+        "enabled": false,
         "actions": [
             {
                 "action": "\\Webgriffe\\CaptainHook\\PreventPushForce",
